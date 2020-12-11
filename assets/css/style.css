@@ -252,6 +252,16 @@ table {
     background-color: #dbdbdb;
 }
 
+.docs {
+    text-decoration: none;
+    color: white;
+}
+
+.docs:hover {
+    text-decoration: none;
+    color: #fff700;
+}
+
 #tabaut table {
     border: none;
 }

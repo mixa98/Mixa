@@ -99,9 +99,9 @@ for (u = 0; u < navikone.length; u++) {
 
 var navmenu = document.getElementById("navlinks");
 
-var navnaziv = ["Početna", "Vozila", "Autor", "Usluge", "Dokumentacija"];
+var navnaziv = ["Početna", "Vozila", "Autor", "Usluge"];
 
-var navhref = ["index.html", "vozila.html", "autor.html", "usluge.html", "dokumentacija.pdf"];
+var navhref = ["index.html", "vozila.html", "autor.html", "usluge.html"];
 
 for (l = 0; l < navnaziv.length; l++) {
 
