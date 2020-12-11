@@ -17,7 +17,7 @@ var navmenu = document.getElementById("navlinks");
 
 var navnaziv = ["Početna", "Vozila", "Autor", "Usluge", "Dokumentacija"];
 
-var navhref = ["index.html", "vozila.html", "autor.html", "usluge.html"];
+var navhref = ["index.html", "vozila.html", "autor.html", "usluge.html", "dokumentacija.pdf"];
 
 for (l = 0; l < navnaziv.length; l++) {
 
@@ -72,7 +72,9 @@ var dugme = ["d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11",
 
 for (c = 0; c < naziv.length; c++) {
 
-    sva.innerHTML += '<div class="col-12  col-md-6 col-lg-4 svi my-5 ' + filter[c] + '"><h5>' + naziv[c] + '</h5><img src="' + slika[c] + '" alt="' + altauto[c] + '"><h4>' + cena[c] + ' €</h4><div class="col-12 bt"><i class="fa fa-chevron-down ' + dugme[c] + ' btn0"></i></div></div>';
+    sva.innerHTML += '<div class="col-12  col-md-6 col-lg-4 svi my-5 ' + filter[c] + '"><h5>' + naziv[c] +
+        '</h5><img src="' + slika[c] + '" alt="' + altauto[c] + '"><h4>' + cena[c] + ' €</h4><div class="col-12 bt"><i class="fa fa-chevron-down ' +
+        dugme[c] + ' btn0"></i></div></div>';
 
 
 }
@@ -101,7 +103,10 @@ var kl = ["k1", "k2", "k3", "k4", "k5", "k6", "k7", "k8", "k9", "k10", "k11", "k
 
 for (d = 0; d < spec.length; d++) {
 
-    spec[d].innerHTML += '<div class="row ' + kl[d] + '"><div class="col-6 car tamno"><p>Godina</p></div><div class="col-6 car tamno"><p>' + godina[d] + '</p></div><div class="col-6 car sivo"><p>Gorivo</p></div><div class="col-6 car sivo"><p>' + gorivo[d] + '</p></div><div class="col-6 car tamno"><p>Kubikaža</p></div><div class="col-6 car tamno"><p>' + kub[d] + 'c㎥</p></div><div class="col-6 car sivo"><p>Karoserija</p></div><div class="col-6 car sivo"><p>' + karo[d] + '</p></div></div>'
+    spec[d].innerHTML += '<div class="row ' + kl[d] + '"><div class="col-6 car tamno"><p>Godina</p></div><div class="col-6 car tamno"><p>' +
+        godina[d] + '</p></div><div class="col-6 car sivo"><p>Gorivo</p></div><div class="col-6 car sivo"><p>' + gorivo[d] +
+        '</p></div><div class="col-6 car tamno"><p>Kubikaža</p></div><div class="col-6 car tamno"><p>' + kub[d] +
+        'c㎥</p></div><div class="col-6 car sivo"><p>Karoserija</p></div><div class="col-6 car sivo"><p>' + karo[d] + '</p></div></div>'
 
 }
 

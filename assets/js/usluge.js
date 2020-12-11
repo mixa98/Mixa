@@ -17,7 +17,7 @@ var navmenu = document.getElementById("navlinks");
 
 var navnaziv = ["Početna", "Vozila", "Autor", "Usluge", "Dokumentacija"];
 
-var navhref = ["index.html", "vozila.html", "autor.html", "usluge.html"];
+var navhref = ["index.html", "vozila.html", "autor.html", "usluge.html", "dokumentacija.pdf"];
 
 for (l = 0; l < navnaziv.length; l++) {
 

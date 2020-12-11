@@ -101,7 +101,7 @@ var navmenu = document.getElementById("navlinks");
 
 var navnaziv = ["Početna", "Vozila", "Autor", "Usluge", "Dokumentacija"];
 
-var navhref = ["index.html", "vozila.html", "autor.html", "usluge.html"];
+var navhref = ["index.html", "vozila.html", "autor.html", "usluge.html", "dokumentacija.pdf"];
 
 for (l = 0; l < navnaziv.length; l++) {
 
@@ -131,7 +131,6 @@ function changeImg() {
 window.onload = changeImg;
 
 
-// JQuery
 
 
 
@@ -171,13 +170,6 @@ for (q = 0; q < centarslike.length; q++) {
 
     centarikone.innerHTML += '<div class="col-12 col-md-6 col-xl-4 centar py-4"><img src=' + centarslike[q] + ' alt=' + centaralt[q] + '><h5 class="my-4 font-weight-bold">' + centarnaslov[q] + '</h5><p class="tekstusluge">' + centartext[q] + '</p><i class="fa fa-chevron-down ' + centarbtn[q] + ' btn0"></i><p class=' + centartx[q] + '>' + centarsve[q] + '</p></div>'
 }
-
-
-
-
-
-
-
 
 
 var taster = document.getElementById("procitajvise");
