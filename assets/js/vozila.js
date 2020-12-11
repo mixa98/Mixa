@@ -167,45 +167,59 @@ $(document).ready(function () {
     $('.k14').hide();
 
     $('.d1').click(function () {
+        $('.k1').stop();
         $('.k1').slideToggle('slow');
     })
     $('.d2').click(function () {
+        $('.k2').stop();
         $('.k2').slideToggle('slow');
     })
     $('.d3').click(function () {
+        $('.k3').stop();
         $('.k3').slideToggle('slow');
     })
     $('.d4').click(function () {
+        $('.k4').stop();
         $('.k4').slideToggle('slow');
     })
     $('.d5').click(function () {
+        $('.k5').stop();
         $('.k5').slideToggle('slow');
     })
     $('.d6').click(function () {
+        $('.k6').stop();
         $('.k6').slideToggle('slow');
     })
     $('.d7').click(function () {
+        $('.k7').stop();
         $('.k7').slideToggle('slow');
     })
     $('.d8').click(function () {
+        $('.k8').stop();
         $('.k8').slideToggle('slow');
     })
     $('.d9').click(function () {
+        $('.k9').stop();
         $('.k9').slideToggle('slow');
     })
     $('.d10').click(function () {
+        $('.k10').stop();
         $('.k10').slideToggle('slow');
     })
     $('.d11').click(function () {
+        $('.k11').stop();
         $('.k11').slideToggle('slow');
     })
     $('.d12').click(function () {
+        $('.k12').stop();
         $('.k12').slideToggle('slow');
     })
     $('.d13').click(function () {
+        $('.k13').stop();
         $('.k13').slideToggle('slow');
     })
     $('.d14').click(function () {
+        $('.k14').stop();
         $('.k14').slideToggle('slow');
     })
 

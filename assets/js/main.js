@@ -17,9 +17,6 @@ $(document).ready(function () {
     });
 
 
-
-
-
     $('#vise').hide();
 
     $('#procitajvise').click(function () {
@@ -45,27 +42,33 @@ $(document).ready(function () {
 
 
 
-    $('.btn1').hover(function () {
+    $('.btn1').click(function () {
+        $('.tx1').stop();
         $('.tx1').slideToggle('slow');
     })
 
     $('.btn2').hover(function () {
+        $('.tx2').stop();
         $('.tx2').slideToggle('slow');
     })
 
     $('.btn3').hover(function () {
+        $('.tx3').stop();
         $('.tx3').slideToggle('slow');
     })
 
     $('.btn4').hover(function () {
+        $('.tx4').stop();
         $('.tx4').slideToggle('slow');
     })
 
     $('.btn5').hover(function () {
+        $('.tx5').stop();
         $('.tx5').slideToggle('slow');
     })
 
     $('.btn6').hover(function () {
+        $('.tx6').stop();
         $('.tx6').slideToggle('slow');
     })
 
